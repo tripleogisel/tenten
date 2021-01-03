@@ -1,0 +1,363 @@
+/* #Main
+================================================== */
+
+html {
+  background: #fff;
+  font: 16px 'Acumin', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+}
+
+
+/* #Typography
+================================================== */
+
+
+	@font-face {
+		font-family: 'Acumin Cond';
+		src: url('typefaces/acuminprocond-bold.otf');
+
+}
+
+
+@font-face {
+	font-family: 'Acumin';
+	src: url('typefaces/Acumin-RPro.otf');
+
+}
+
+
+	@font-face {
+		font-family: 'Acumin Bold';
+		src: url('typefaces/Acumin-BdPro.otf');
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  height: 2rem;
+  padding: 1.5rem 1.5rem;
+}
+
+nav > button {
+  float: right;
+  background-color: white;
+  border: .25px #111 solid;
+  padding: .25rem;
+  border-radius: .25rem;
+  font-weight: medium;
+}
+
+nav > button:hover {
+  float: right;
+  background-color: #eee;
+  border: .25px #111 solid;
+  padding: .25rem;
+  border-radius: .25rem;
+  font-weight: medium;
+  text-decoration: underline;
+}
+
+.brandArea {
+  padding: 17rem 0rem;
+}
+
+.brandArea > p {
+  font-size: 1.25rem;
+  display: block;
+  padding: 2rem 0rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.thesis {
+  padding-bottom: 4rem;
+}
+
+.thesis p {
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 4rem;
+  display: block;
+  font-size: 4.25rem;
+  font-weight: bold;
+  word-wrap: normal;
+}
+
+.thesis p > span {
+  color: #017100;
+}
+
+.answer p {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  background-color: #017100;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4rem;
+}
+
+#diagrams {
+  margin: 2rem 0rem 8rem 0rem;
+}
+
+.longForm {
+  display: block;
+  width: 45%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 4rem 0rem;
+}
+
+.population {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 4rem;
+}
+
+.population > p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.population > p > span {
+  color: #017100;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: .25rem 0rem;
+}
+
+.row span div {
+  background-color: #017100;
+}
+
+.peopleCircle {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3rem;
+  background-color: #111;
+}
+
+footer p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6rem 0rem 2rem 0rem;
+  font-size: 1.25rem;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+footer a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: #111;
+}
+
+a:-webkit-any-link {
+  color: #111;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: #111;
+}
+
+a:-webkit-any-link:visited {
+  color: #111;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: #111;
+}
+
+.whimBlock {
+}
+
+.blockOne {
+  margin-top: 8rem;
+  display: block;
+  height: 3rem;
+  background-color:#174f4b;
+}
+
+.blockTwo {
+  display: block;
+  height: 3rem;
+ background-color: #3b6174;
+}
+
+.blockThree {
+  display: block;
+  height: 3rem;
+  background-color: #8b2823;
+}
+
+.blockFour {
+  display: block;
+  height: 3rem;
+  background-color: #c0a585;
+}
+
+button > a {
+  text-decoration: none;
+}
+
+@media (max-width: 480px){
+
+  .html {
+    font-size: 14px;
+  }
+
+  .population > p > span {
+    color: #017100;
+  }
+
+  .population {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+  }
+
+  .population > p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .25rem 0rem;
+  }
+
+  .row span div {
+    background-color: #017100;
+  }
+
+  .peopleCircle {
+    height: .5rem;
+    width: .5rem;
+    border-radius: .5rem;
+    background-color: #111;
+  }
+
+  .brandArea {
+    padding: 16rem 0rem;
+  }
+
+  .brandArea > p {
+    font-size: 1.55rem;
+    display: block;
+    padding: 2rem 0rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+  }
+
+  .thesis {
+    padding-bottom: 2rem;
+  }
+
+  .thesis p {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 1rem;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    word-wrap: normal;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  #diagrams {
+    margin: 1rem 0rem 3rem 0rem;
+  }
+
+  .longForm {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.15rem;
+    padding: 2rem 0rem;
+  }
+
+  footer p {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6rem 0rem 1rem 0rem;
+    font-size: 1.15rem;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
+
+  footer a:visited {
+    text-decoration: none;
+    color: #111;
+  }
+
+  a:-webkit-any-link {
+    color: #111;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: red;
+  }
+
+  a:-webkit-any-link:visited {
+    color: #111;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: red;
+  }
+
+  body > footer > a {
+    color: #111;
+  }
