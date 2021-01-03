@@ -196,7 +196,8 @@ a:-webkit-any-link:visited {
   text-decoration-color: #111;
 }
 
-.whimBlock {
+.emailAddress {
+  font-weight: bold;
 }
 
 .blockOne {
@@ -228,6 +229,15 @@ button > a {
   text-decoration: none;
 }
 
+.contactInfo {
+  padding: 2rem;
+  font-size: 4.25rem;
+}
+
+.contactInfo a {
+  text-decoration: none;
+}
+
 @media (max-width: 480px){
 
   .html {
@@ -255,7 +265,7 @@ button > a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: .25rem 0rem;
+    padding: .1rem 0rem;
   }
 
   .row span div {
@@ -263,18 +273,19 @@ button > a {
   }
 
   .peopleCircle {
-    height: .5rem;
-    width: .5rem;
-    border-radius: .5rem;
+    height: .75rem;
+    width: .75rem;
+    border-radius: .75rem;
     background-color: #111;
   }
 
   .brandArea {
-    padding: 16rem 0rem;
+    padding: 14rem 0rem;
   }
 
   .brandArea > p {
-    font-size: 1.55rem;
+    font-size: 1.65rem;
+    width: 85%;
     display: block;
     padding: 2rem 0rem;
     margin: 0 auto;
@@ -288,15 +299,15 @@ button > a {
   }
 
   .thesis {
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
   }
 
   .thesis p {
     margin: 0 auto;
     text-align: center;
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     font-weight: bold;
     word-wrap: normal;
   }
@@ -326,7 +337,7 @@ button > a {
     margin: 0 auto;
     text-align: center;
     padding: 6rem 0rem 1rem 0rem;
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 
   footer a {
@@ -345,7 +356,7 @@ button > a {
     text-decoration-line: underline;
     text-decoration-thickness: initial;
     text-decoration-style: initial;
-    text-decoration-color: red;
+    text-decoration-color: #111;
   }
 
   a:-webkit-any-link:visited {
@@ -355,9 +366,130 @@ button > a {
     text-decoration-line: underline;
     text-decoration-thickness: initial;
     text-decoration-style: initial;
-    text-decoration-color: red;
+    text-decoration-color: #111;
   }
 
   body > footer > a {
     color: #111;
+  }
+
+  .answer p {
+    font-size: 1.65rem;
+    color: white;
+    font-weight: bold;
+    background-color: #017100;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .blockOne {
+    margin-top: 8rem;
+    display: block;
+    height: 1.5rem;
+    background-color:#174f4b;
+  }
+
+  .blockTwo {
+    display: block;
+    height: 1.5rem;
+   background-color: #3b6174;
+  }
+
+  .blockThree {
+    display: block;
+    height: 1.5rem;
+    background-color: #8b2823;
+  }
+
+  .blockFour {
+    display: block;
+    height: 1.5rem;
+    background-color: #c0a585;
+  }
+
+  .contactInfo {
+    padding: 2rem;
+    font-size: 1.65rem;
+  }
+
+  .contactInfo a {
+    text-decoration: none;
+  }
+
+  @media (max-width: 375px){
+    .thesis p {
+      margin: 0 auto;
+      text-align: center;
+      padding: 1rem 1rem;
+      display: block;
+      font-size: 1.2rem;
+      font-weight: bold;
+      word-wrap: normal;
+    }
+
+    .answer p {
+      font-size: 1.2rem;
+      color: white;
+      font-weight: bold;
+      background-color: #017100;
+      margin: 0 auto;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .brandArea > p {
+      font-size: 1.2rem;
+      width: 85%;
+      display: block;
+      padding: 2rem 0rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .brandArea {
+      padding: 13rem 0rem;
+    }
+  }
+
+  @media (height: 812px) {
+    .brandArea {
+      padding: 16rem 0rem 20rem;
+    }
+
+    .thesis p {
+      margin: 0 auto;
+      text-align: center;
+      padding: 1rem 1rem;
+      display: block;
+      font-size: 1.25rem;
+      font-weight: bold;
+      word-wrap: normal;
+    }
+
+  }
+
+  @media (max-width: 320px){
+    .thesis p {
+      margin: 0 auto;
+      text-align: center;
+      padding: 1rem 1rem;
+      display: block;
+      font-size: 1.25rem;
+      font-weight: bold;
+      word-wrap: normal;
+    }
+
+    .brandArea > p {
+      font-size: 1.25rem;
+      width: 85%;
+      display: block;
+      padding: 2rem 0rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .brandArea {
+      padding: 10rem 0rem;
+    }
   }
