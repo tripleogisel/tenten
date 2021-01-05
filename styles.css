@@ -41,6 +41,14 @@ nav {
   padding: 1.5rem 1.5rem;
 }
 
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 nav > button {
   float: right;
   background-color: white;
@@ -238,6 +246,16 @@ button > a {
   text-decoration: none;
 }
 
+.contactInfo p {
+  margin: 1.5rem 0rem;
+}
+
+.headline {
+  font-size: 4.25rem;
+  font-weight: bold;
+  margin-top: 4rem;
+}
+
 @media (max-width: 480px){
 
   .html {
@@ -415,6 +433,12 @@ button > a {
 
   .contactInfo a {
     text-decoration: none;
+  }
+
+  .headline {
+    font-size: 1.65rem;
+    font-weight: bold;
+    margin-top: 1rem;
   }
 
   @media (max-width: 375px){
