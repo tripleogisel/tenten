@@ -114,6 +114,10 @@ nav > button:hover {
   padding: 4rem;
 }
 
+.breakdown {
+	text-align:left;
+}
+
 #diagrams {
   margin: 2rem 0rem 8rem 0rem;
 }
