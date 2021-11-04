@@ -115,7 +115,13 @@ nav > button:hover {
 }
 
 .breakdown {
-	text-align:left;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  background-color: #017100;
+  margin: 0 auto;
+  text-align: left;
+  padding: 4rem;
 }
 
 #diagrams {
