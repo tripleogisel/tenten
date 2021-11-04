@@ -114,14 +114,14 @@ nav > button:hover {
   padding: 4rem;
 }
 
-.breakdown {
-  font-size: 2rem;
+.breakdown p {
+  font-size: 1.5rem;
   color: white;
   font-weight: bold;
   background-color: #017100;
-  margin: 0 auto;
+  margin: 2rem auto 0rem;
   text-align: left;
-  padding: 4rem;
+  padding: 2rem;
 }
 
 #diagrams {
