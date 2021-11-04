@@ -411,6 +411,16 @@ button > a {
     text-align: center;
     padding: 2rem;
   }
+	
+.breakdown p {
+  font-size: 1.25rem;
+  color: white;
+  font-weight: bold;
+  background-color: #017100;
+  margin: 2rem auto;
+  text-align: left;
+  padding: 3rem 3rem;
+}
 
   .blockOne {
     margin-top: 8rem;
